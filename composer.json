@@ -1,0 +1,22 @@
+{
+    "name": "duanpei/duanp",
+    "authors": [
+        {
+            "name": "段沛",
+            "email": "149022511@qq.com"
+        }
+    ],
+    "require": {
+        "php-di/php-di": "^6.0",
+        "relay/relay": "~2.0",
+        "zendframework/zend-diactoros": "^2.1",
+        "middlewares/fast-route": "^1.2",
+        "middlewares/request-handler": "^1.4",
+        "zendframework/zend-httphandlerrunner": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "ExampleApp\\" : "src/"
+        }
+    }
+}
